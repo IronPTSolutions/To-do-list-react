@@ -1,0 +1,32 @@
+.List {
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 16px;
+  width: 400px;
+}
+
+.List .List-items {
+  margin-top: 16px;
+}
+
+.List .List-actions {
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.List .List-actions p {
+  margin: 0;
+}
+
+.List .List-actions button {
+  background-color: var(--c-primary);
+  height: 40px;
+  appearance: none;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 4px;
+  padding: 0 16px;
+}

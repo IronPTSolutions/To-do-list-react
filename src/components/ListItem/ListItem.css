@@ -1,0 +1,25 @@
+.ListItem {
+  background-color: var(--c-grey-bg);
+  padding: 8px;
+  color: var(--c-grey-text);
+  font-weight: 400;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+}
+
+.ListItem button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  appearance: none;
+  border: none;
+  background-color: var(--c-delete);
+  color: #fff;
+  font-weight: 700;
+}
+
+.ListItem + .ListItem {
+  margin-top: 8px;
+}
